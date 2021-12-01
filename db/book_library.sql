@@ -14,5 +14,5 @@ CREATE TABLE books(
     author_id INT REFERENCES authors(id)
 );
 
-INSERT INTO authors (name) VALUES ('Stephen');
-INSERT INTO books (title,year, genre, author_id) VALUES ('The Shinning', 1980, 'Horror',1);
+-- INSERT INTO authors (name) VALUES ('Stephen');
+-- INSERT INTO books (title,year, genre, author_id) VALUES ('The Shinning', 1980, 'Horror',1);
